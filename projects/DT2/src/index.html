@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Assignment 2: Client side javasrcipt</title>
+        <link rel='stylesheet' type='text/css' href='style.css'>
+        <meta charset="UTF-8">
+    </head>
+
+    <body id="body">
+        <header id='header'>
+            <h2>Create a new board</h2>
+            <div id='createBoard'>
+                <form onsubmit="createNewBoard();return false">
+                    <input id="boardName" placeholder="Create new board" onsubmit="createNewBoard();return false"> 
+                </form>
+            </div>
+        </header>
+
+            <div id="container">
+            
+            </div>    
+       
+            <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+            <script src='script.js'></script>
+        </body>
+</html>

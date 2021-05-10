@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+}
+
+
+.noteBox {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    background-color: lightgrey;
+    border: solid lightblue 0.1px;
+    padding: 6px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.noteName {
+    border-bottom: 2px solid black;
+}
+
+.DelBtn {
+    border: none;
+    font-size: 10px;
+}
